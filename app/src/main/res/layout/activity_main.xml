@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.tiagomartt.levelprogressbar.LevelProgressBar
+        android:id="@+id/levelProgressBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+
+
+        android:layout_marginEnd="16dp"
+
+        app:backgroundCornerRadius="24dp"
+        app:currentLevel="154"
+
+        app:currentLevelMarginStart="6dp"
+        app:currentPosition="Pobre"
+        app:currentPositionMarginStart="6dp"
+        app:nextPositionMarginEnd="6dp"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+
+        app:nextLevel="1000"
+        app:nextLevelMarginEnd="6dp"
+        app:nextPosition="Índio"
+        app:progress="60"
+        app:progressCornerRadius="24dp"
+        app:progressStrokeWidth="2dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:text="++"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+    </Button>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

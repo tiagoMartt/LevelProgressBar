@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="backgroundCornerRadius">6dp</dimen>
+    <dimen name="progressCornerRadius">6dp</dimen>
+    <dimen name="progressStrokeWidth">1dp</dimen>
+    <dimen name="backgroundPaddingBottom_">2dp</dimen>
+    <dimen name="backgroundPaddingEnd_">2dp</dimen>
+    <dimen name="backgroundPaddingTop_">2dp</dimen>
+    <dimen name="backgroundPaddingStart_">2dp</dimen>
+    <dimen name="textSize">11sp</dimen>
+    <dimen name="currentLevelTextMarginTop">4dp</dimen>
+    <dimen name="currentPositionMarginTop">4dp</dimen>
+    <dimen name="currentPositionMarginStart">6dp</dimen>
+    <dimen name="nextLevelMarginEnd">6dp</dimen>
+    <dimen name="nextPositionMarginTop">4dp</dimen>
+    <dimen name="nextPositionMarginEnd">6dp</dimen>
+
+</resources>

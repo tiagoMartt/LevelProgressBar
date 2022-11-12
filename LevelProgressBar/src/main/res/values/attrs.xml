@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="LevelProgressBar">
+
+        <attr name="backgroundColor_" format="color" />
+        <attr name="backgroundCornerRadius" format="dimension" />
+
+        <attr name="progressColor" format="color" />
+        <attr name="progressCornerRadius" format="dimension" />
+        <attr name="progressStrokeColor" format="color" />
+        <attr name="progressStrokeWidth" format="dimension" />
+
+        <attr name="backgroundPaddingTop" format="dimension" />
+        <attr name="backgroundPaddingBottom" format="dimension" />
+        <attr name="backgroundPaddingStart" format="dimension" />
+        <attr name="backgroundPaddingEnd" format="dimension" />
+
+        <attr name="currentLevelMarginBottom" format="dimension" />
+        <attr name="currentLevelMarginStart" format="dimension" />
+        <attr name="currentLevelMarginTop" format="dimension" />
+        <attr name="currentPositionMarginStart" format="dimension" />
+        <attr name="currentPositionMarginTop" format="dimension" />
+        <attr name="nextLevelMarginBottom" format="dimension" />
+        <attr name="nextLevelMarginEnd" format="dimension" />
+        <attr name="nextLevelMarginTop" format="dimension" />
+        <attr name="nextPositionMarginEnd" format="dimension" />
+        <attr name="nextPositionMarginTop" format="dimension" />
+
+        <attr name="min" format="integer" />
+        <attr name="progress" format="integer" />
+        <attr name="max" format="integer" />
+
+        <attr name="textColor" format="color" />
+        <attr name="textSize" format="dimension" />
+        <attr name="fontFamily" />
+
+        <attr name="currentLevel" format="integer" />
+        <attr name="currentPosition" format="string|integer" />
+
+        <attr name="nextLevel" format="integer" />
+        <attr name="nextPosition" format="string|integer" />
+
+    </declare-styleable>
+
+</resources>
